@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlusBehaviour : MonoBehaviour
-{
+public class MinusBehaviour : MonoBehaviour {
+
     public GameObject Obj;
 
-    public int PlusCounter;
+    public int MinusCounter;
     public void spawn()
     {
-        PlusCounter++;
+        MinusCounter++;
 
         //if (Obj.GetComponent<TextBehaviour>().Numbers > Obj.GetComponent<TextBehaviour>().Numbers + 1 || Obj.GetComponent<TextBehaviour>().Numbers < Obj.GetComponent<TextBehaviour>().Numbers - 1)
         //{
-        //    PlusCounter = 0;
+        //    MinusCounter = 0;
         //}
+
     }
 }
-       
